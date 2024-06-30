@@ -1,0 +1,88 @@
+FILE COMMANDAS:
+
+  ls -l /tmp -> is used to list all the files and directories inside the particular director (-l) is the option which is used to display all the information regarding the files and directories inside 
+                current working directory
+                (/tmp) -> is the argument to let system know present working directory should be tmp for (ls) command
+
+touch  -> is used to create the file 
+mkdir -> is used to create the directory
+rm -> is used to remove the file 
+rm -r ->  is used to remove the directory, -r -> is the option (Recurrsive) which deletes the files and directories inside the directory to be deleted recurrsively and then deletes the directory
+                                                  Note* Filled directories cannot be deleted
+rmdir -> is used to delete an empty directory
+cat -> is used to show at the console the content of the file
+
+DIRECTORY NAVIGATION COMMANDS:
+
+  cd -> is the abbrevation of Change Directory ( used to change the directory)
+  cd .. -> is used to change the present working directory one step back directory
+  pwd -> is the abbrevation of Present Working Directory
+  cd /directory_name -> change the present working directory to the directory_name
+
+USERS COMMANDS:
+
+  id user_name -> is used to know the information about the user 
+  last -> is used to know the history of all the users who have last logged in to this machine or server
+  whoami -> is used to know the currect working user (Current)
+  who -> is used to know the information about all the curretly active user to server 
+  w -> is used to know working of all the active users 
+
+  Note* When a user is created as user_name, then implicitely group is created with same user_name and user is the part of that group along with a Wheel group is created is a user is the part of root 
+        then he/she will be added in this wheel group else NOT
+
+prompt eg- [student@localhost ~]$ -> student is the current USER
+                                      localhost is the machine or server 
+                                      ~ implies the present directory
+                                      $ -> implies that the user is NON-ROOT user 
+                                      # -> instead of $ if there is # it implies user is ROOT USER
+
+SYSTEM INFORMATION:
+
+  hostname -> is used to know name of the Server
+  uname -r -> is used to know the kernal version along with revision number OR the kernal which I am using right now 
+  date -> is used to know the date in the virtual machine 
+
+NETWORK INFORMATION:
+
+  ip a -> is used to know the IP-Address of the server 
+  ping -> is used to check the connectivity with other server 
+          eg - ping google.com
+          we get the unlimited ping to stop we need to use the ctrl+c
+          When the terminated ping shows the summary 
+
+
+HISTORY
+  history -> is used to know the history of all the commands  which I have been entered till now 
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
